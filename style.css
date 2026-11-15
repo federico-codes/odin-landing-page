@@ -2,7 +2,40 @@
 /* Style CSS*/
 
 body {
-    background-color: #000;
+     background-color: #fff;
+     max-width: 1366px;
+  margin: 0 auto;
 }
 
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2936;
+    padding: 5px 30px;
+}
 
+.header-left {
+    font-family: Roboto, Helvetica, sans-serif;
+    color: white;
+    font-size: larger;
+    font-weight: 900;
+}
+
+.header-right ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.header-right a {
+    color: #ccc;
+    font-weight: 500;
+    font-size: large;
+    text-decoration: none;
+}
