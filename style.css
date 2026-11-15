@@ -39,3 +39,40 @@ body {
     font-size: large;
     text-decoration: none;
 }
+
+.hero {
+    background-color: #1F2937;
+    padding: 30px;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.hero h1 {
+    font-family: Roboto, Helvetica, sans-serif;
+    color: white;    
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.hero-left p {
+    font-family: Roboto, Helvetica, sans-serif;
+    color: white;    
+    font-size: 16px;
+}
+
+.hero-left button {
+    border-radius: 8px;
+    font-family: Roboto, Helvetica, sans-serif;
+    color: white;    
+    font-size: 16px;
+    font-weight: 700;
+    background-color:dodgerblue;
+    padding: 8px 30px;
+    border: none;
+}
+
+.hero-left,
+.hero-right {
+    flex: 1;
+}
