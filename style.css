@@ -10,16 +10,16 @@ body {
 .header {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    background-color: #1F2936;
-    padding: 5px 30px;
+    background-color: #1F2937;
+    padding: 5px 140px 5px 95px;
 }
 
 .header-left {
     font-family: Roboto, Helvetica, sans-serif;
-    color: white;
-    font-size: larger;
+    color:#F9FAF8;
+    font-size: 24px;
     font-weight: 900;
 }
 
@@ -34,9 +34,10 @@ body {
 }
 
 .header-right a {
+    font-family: Roboto, Helvetica, sans-serif;
     color: #ccc;
     font-weight: 500;
-    font-size: large;
+    font-size: 17px;
     text-decoration: none;
 }
 
@@ -50,15 +51,15 @@ body {
 
 .hero h1 {
     font-family: Roboto, Helvetica, sans-serif;
-    color: white;    
+    color:#F9FAF8;    
     font-weight: 900;
     font-size: 48px;
 }
 
 .hero-left p {
     font-family: Roboto, Helvetica, sans-serif;
-    color: white;    
-    font-size: 16px;
+    color:#E5E7EB;    
+    font-size: 18px;
 }
 
 .hero-left button {
@@ -76,3 +77,5 @@ body {
 .hero-right {
     flex: 1;
 }
+
+/* Estoy empezando Information Section*/
